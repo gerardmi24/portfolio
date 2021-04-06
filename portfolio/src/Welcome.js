@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ProfPic from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/profilePic.jpeg'
 
 export default function Welcome() {
     return (
@@ -16,9 +17,7 @@ export default function Welcome() {
                     <div>
                         Social Media Accounts/Icons Go Here!
                     </div>
-                    {/* <img>
-                        My Pic :D
-                    </img> */}
+                    <img src={ProfPic} />
                     <div>
                         <Link className="navOpps" to="/projects">Projects</Link> 
                         <Link className="navOpps" to="/skills">Skills</Link>
