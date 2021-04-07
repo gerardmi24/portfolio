@@ -14,13 +14,15 @@ export default function Welcome() {
                         <h1 id="headerTitle"> Welcome to my Portfolio!</h1>
                         <div>
                             <h2>Gerard Mistretta</h2>
-                            <h4>Fullstack Web Developer</h4>
+                            <h3>Fullstack Web Developer</h3>
                         </div>
                     </div>
-                    <img src={GitLogo} />
-                    <img src={LinkedInLogo} />
-                    <img src={MediumIcon} />
-                    <img src={ProfPic} />
+                    <div>
+                        <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener"><img src={GitLogo} alt="Github Logo" /></a>
+                        <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img src={LinkedInLogo} alt="LinkedIn Logo" /></a>
+                        <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img src={MediumIcon} alt="Medium Logo" /></a>
+                    </div>
+                        <img src={ProfPic} alt="Gerard Mistretta" />
                     <div>
                         <Link className="navOpps" to="/projects">Projects</Link> 
                         <Link className="navOpps" to="/skills">Skills</Link>

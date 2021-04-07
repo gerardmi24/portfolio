@@ -7,10 +7,10 @@ export default function Nav() {
         <div>
             <div>
                 <h2>Gerard Mistretta</h2>
-                <br />
-                <br />
+                <br/>
+                <br/>
                 <p>Fullstack Software Engineer</p>
-                <br />
+                <br/>
             </div>
             <div>
                 <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener" ><i className="fab fa-github-square"></i></a>
