@@ -48,7 +48,7 @@ export default function Skills() {
                 </div>
                 <div>
                     <text>
-                        GitHub - RESTful APIs - VScode
+                        Bootstrap - GitHub - RESTful APIs - VScode
                     </text>     
                 </div>   
             </div>

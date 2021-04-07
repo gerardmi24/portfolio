@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  background: beige;
 }
 
 .App-logo {
@@ -21,15 +24,52 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: beige;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.Bio {
+  font-size: 20px;
+  border: 2px solid darkblue;
+  width: 60%;
+  margin: 10px;
+  padding: 15px;
+  position:relative; bottom: 35px; left: 310px;
+}
+
+.Description {
+  position:relative; top: 95px; margin-right: 285px;
+  font-size: 23px;
+}
+
 .footsies {
- color: darkred
+ color: darkblue;
+ font-size: 20px;
+ position:relative; bottom: 18px;
+}
+
+.HeaderTitle {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 60px;
+  position:relative; top: 40px;
+}
+
+.Me {
+  border-radius: 80%;
+  border: 2px solid darkblue;
+  width: 300px;
+  height: 380px;
+  margin: 5px;
+  position:relative; bottom: 60px; margin-right: 1175px;
+}
+
+.Name {
+  font-size: 40px;
+  position: relative; top: 100px; margin-right: 280px;
 }
 
 .navLinks li{
@@ -39,7 +79,23 @@
 }
 
 .navOpps {
-  margin: 5px;
+  color: darkblue;
+  margin: 70px;
+  position: relative; bottom: 185px;
+  font-size: 35px
+}
+
+.Socials {
+  background: beige;
+  background-color: transparent;
+  opacity: 0.6;
+  position:relative; bottom: 90px;
+}
+
+.SocialLogo {
+  margin: 80px;
+  background: beige;
+  background-color: transparent;
 }
 
 @keyframes App-logo-spin {

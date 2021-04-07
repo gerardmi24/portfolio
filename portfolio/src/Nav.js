@@ -10,8 +10,6 @@ export default function Nav() {
         <div>
             <div>
                 <h2>Gerard Mistretta</h2>
-                <br/>
-                <br/>
                 <p>Fullstack Software Engineer</p>
                 <br/>
             </div>
@@ -21,7 +19,7 @@ export default function Nav() {
                 <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img src={MediumIcon} alt="Medium Logo"></img></a>
             </div>
             <div className="navLinks">
-                <li><Link to="/" className="link"> About </Link></li>
+                <li><Link to="/" className="link"> Home </Link></li>
                 <li><Link to="/projects" className="link"> Projects </Link></li>
                 <li><Link to="/skills" className="link"> Skills </Link></li>
                 <li><a className="link"  target="_blank" rel="noreferrer noopener"href="https://docs.google.com/document/d/1Hf_4ZcvoPeXyfCt5hgiqUslGLuO2pHRJmiaZo7HYbx4/edit">Resume</a></li>
