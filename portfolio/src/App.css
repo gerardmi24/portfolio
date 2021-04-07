@@ -32,6 +32,12 @@
  color: darkred
 }
 
+.navLinks li{
+  margin-top: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
 .navOpps {
   margin: 5px;
 }
