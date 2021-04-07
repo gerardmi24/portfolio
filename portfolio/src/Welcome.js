@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProfPic from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/profilePic.jpeg'
+import ProfPic from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/profilePic.jpeg';
+import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/GithubLogo.jpeg';
+import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedInIcon.jpeg';
 
 export default function Welcome() {
     return (
@@ -14,9 +16,8 @@ export default function Welcome() {
                             <h4>Full Stack Web Developer</h4>
                         </div>
                     </div>
-                    <div>
-                        Social Media Accounts/Icons Go Here!
-                    </div>
+                    <img src={GitLogo} />
+                    <img src={LinkedInLogo} />
                     <img src={ProfPic} />
                     <div>
                         <Link className="navOpps" to="/projects">Projects</Link> 
