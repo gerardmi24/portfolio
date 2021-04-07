@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'
+import Footer from './Footer';
+import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/GithubLogo.jpeg';
+import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedInIcon.jpeg';
+import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/MediumIcon.jpeg';
 
 export default function Nav() {
     return (
@@ -13,9 +16,9 @@ export default function Nav() {
                 <br/>
             </div>
             <div>
-                <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener" ><i className="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><i className="fab fa-linkedin"></i></a>
-                <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><i className="fab fab fa-medium"></i></a>
+                <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener" ><img src={GitLogo} alt="Github Logo"></img></a>
+                <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img src={LinkedInLogo} alt="LinkedIn Logo"></img></a>
+                <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img src={MediumIcon} alt="Medium Logo"></img></a>
             </div>
             <div className="navLinks">
                 <li><Link to="/" className="link"> About </Link></li>
