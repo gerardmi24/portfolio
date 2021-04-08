@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/GithubLogo.jpeg';
-import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedInIcon.jpeg';
-import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/MediumIcon.jpeg';
+import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/Github.png';
+import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedIn Logo.png';
+import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/medium-2177.png';
 
 export default function Nav() {
     return (

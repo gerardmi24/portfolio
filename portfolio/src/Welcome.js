@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfPic from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/profilePic.jpeg';
-// import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/GithubLogo.jpeg';
-import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/GithubIcon.jpeg';
-import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedInIcon.jpeg';
-import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/MediumIcon.jpeg';
+import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/Github.png';
+import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedIn Logo.png';
+import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/medium-2177.png';
 
 export default function Welcome() {
     return (
