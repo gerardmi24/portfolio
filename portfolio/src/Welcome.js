@@ -6,27 +6,23 @@ import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio
 import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/medium-2177.png';
 
 export default function Welcome() {
+
     return (
         <>
             <header>
-                <div>
+                <div id="filter">
                     <div>
-                        <h1 className="HeaderTitle"> Welcome to my Portfolio!</h1>
+                        <h1 className="HeaderTitle">Welcome to my Portfolio!</h1>
+                        
                         <div>
                             <h1 className="Name">Gerard Mistretta</h1>
                             <h3 className="Description">Fullstack Web Developer</h3>
                         </div>
                     </div>
-                    <img className="Me" src={ProfPic} alt="Gerard Mistretta" />
                     <div>
                         <Link className="navOpps" to="/projects">Projects</Link> 
                         <Link className="navOpps" to="/skills">Skills</Link>
                         <a className="navOpps" target="_blank" rel="noreferrer noopener" href="https://docs.google.com/document/d/1Hf_4ZcvoPeXyfCt5hgiqUslGLuO2pHRJmiaZo7HYbx4/edit">Resume</a>
-                    </div>
-                    <div className="Socials">
-                        <a className="SocialLogo" href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener"><img src={GitLogo} alt="Github Logo" /></a>
-                        <a className="SocialLogo" href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img src={LinkedInLogo} alt="LinkedIn Logo" /></a>
-                        <a className="SocialLogo" href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img src={MediumIcon} alt="Medium Logo" /></a>
                     </div>
                 </div>
             </header>
@@ -39,6 +35,13 @@ export default function Welcome() {
                     I  continued exploring different platforms, tools and technologies to continue learning 
                     in this rapidly evolving industry.
                 </p>
+                <div className="Socials">
+                        <img className="Me" src={ProfPic} alt="Gerard Mistretta" /> 
+                        <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener"><img className="Github" src={GitLogo} alt="Github Logo" /></a>
+                        <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img className="LinkedIn" src={LinkedInLogo} alt="LinkedIn Logo" /></a>
+                        <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img className="Medium"  src={MediumIcon} alt="Medium Logo" /></a>
+
+                    </div>
             </div>
         </>
     )
