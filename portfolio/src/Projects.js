@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from './Footer';
 
 export default function Projects() {
     return (
         <div>
-            Projectssssss
+            <p>Projectssss</p>
+            <div className="ProjectsFooter" >
+            <Footer />
+            </div>
         </div>
     )
 }

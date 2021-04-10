@@ -4,6 +4,7 @@ import ProfPic from '/Users/gerardmistretta/Development/portfolio/portfolio/src/
 import GitLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/Github.png';
 import LinkedInLogo from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/LinkedIn Logo.png';
 import MediumIcon from '/Users/gerardmistretta/Development/portfolio/portfolio/src/images/medium-2177.png';
+import Footer from './Footer';
 
 export default function Welcome() {
 
@@ -20,9 +21,9 @@ export default function Welcome() {
                         </div>
                     </div>
                     <div>
-                        <Link className="navOpps" to="/projects">Projects</Link> 
-                        <Link className="navOpps" to="/skills">Skills</Link>
-                        <a className="navOpps" target="_blank" rel="noreferrer noopener" href="https://docs.google.com/document/d/1Hf_4ZcvoPeXyfCt5hgiqUslGLuO2pHRJmiaZo7HYbx4/edit">Resume</a>
+                        <Link className="welcomeOpps" to="/projects">Projects</Link> 
+                        <Link className="welcomeOpps" to="/skills">Skills</Link>
+                        <a className="welcomeOpps" target="_blank" rel="noreferrer noopener" href="https://docs.google.com/document/d/1Hf_4ZcvoPeXyfCt5hgiqUslGLuO2pHRJmiaZo7HYbx4/edit">Resume</a>
                     </div>
                 </div>
             </header>
@@ -36,12 +37,14 @@ export default function Welcome() {
                     in this rapidly evolving industry.
                 </p>
                 <div className="Socials">
-                        <img className="Me" src={ProfPic} alt="Gerard Mistretta" /> 
-                        <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener"><img className="Github" src={GitLogo} alt="Github Logo" /></a>
-                        <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img className="LinkedIn" src={LinkedInLogo} alt="LinkedIn Logo" /></a>
-                        <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img className="Medium"  src={MediumIcon} alt="Medium Logo" /></a>
-
-                    </div>
+                    <img className="Me" src={ProfPic} alt="Gerard Mistretta" /> 
+                    <a href="https://github.com/gerardmi24" target="_blank" rel="noreferrer noopener"><img className="Github" src={GitLogo} alt="Github Logo" /></a>
+                    <a href="https://www.linkedin.com/in/gerard-mistretta/" target="_blank" rel="noreferrer noopener"><img className="LinkedIn" src={LinkedInLogo} alt="LinkedIn Logo" /></a>
+                    <a href="https://gerardmistretta.medium.com/" target="_blank" rel="noreferrer noopener"><img className="Medium"  src={MediumIcon} alt="Medium Logo" /></a>
+                </div>
+            </div>
+            <div className="FooterHome" >
+            <Footer  />
             </div>
         </>
     )

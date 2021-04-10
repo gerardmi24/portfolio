@@ -45,6 +45,12 @@
   position: relative; top: 70px; left: 420px;
 }
 
+.CSSImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
 .Description {
   font-size: 23px;
   position: relative; bottom: 12px;
@@ -57,9 +63,13 @@
   margin: 0;
 }
 
+.FooterHome {
+  position: relative; top: 15px;
+}
+
 .footsies {
  color: darkblue;
- font-size: 20px;
+ font-size: 18px;
  position:relative; bottom: 50px;
 }
 
@@ -73,14 +83,51 @@
   color: darkblue;
   font-weight: bold;
   font-size: 60px;
-  position:relative;
+  position: relative; top: 5px;
+}
+
+.HTMLImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
+.JSImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
+.LanguageIcons {
+  display: flex;
+  justify-content: center;
+  position: relative; bottom: 10px;
 }
 
 .LinkedIn {
   width: 17%;
   height: 17%;
   margin: 35px;
-  position: relative; top: 52px;
+  position: relative; top: 50px; 
+}
+
+.linkOpps {
+  color: darkblue;
+  margin: 40px;
+  position: relative;
+  font-size: 30px;
+  position: relative; top: 5px;
+}
+
+/* .linkOpps:hover,
+.linkOpps:active {
+  color: white;
+  background-color: darkblue;
+} */
+
+.linkOpps.active {
+  color: white;
+  background-color: darkblue;
 }
 
 .Me {
@@ -103,34 +150,129 @@
   position: relative;
 }
 
-.navLinks {
-  margin-top: 30px;
-  list-style-type: none;
-  text-align: center;
+.NavGit {
+  width: 10%;
+  height: 10%;
+  margin-left: 35px;
 }
 
-/* .navLinks:hover {
-  opacity: 0.5;
-  color: red;
-  background-color: red;
-} */
+.NavHomeBtn {
+  margin: 20px
+}
 
-.navOpps:hover,
-.navOpps:active {
-  color: red;
+.NavLI {
+  width: 15%;
+  height: 15%;
+  margin-left: 35px;
+  position: relative; top: 52px;
+}
+
+.navLinks {
+  font-size: 25px;
+  margin: 30px;
+  list-style-type: none;
+  text-align: center;
+  position: relative; top: 10px;
+}
+
+.NavMed {
+  width: 10%;
+  height: 10%;
+  margin-left: 35px;
+}
+
+.NavName {
+  position: relative; top: 15px;
+  font-size: 30px;
+}
+
+.NavProjectsBtn {
+  margin: 30px
+}
+
+.NavSkillsBtn {
+  margin: 30px
+}
+
+.NavSocialsPage {
+  position: relative; bottom: 12px;
+}
+
+.NavTitle {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.ProjectsFooter {
+  position: relative; top: 35px;
+}
+
+.RailsImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
+.ReactImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
+.ResumeBtn {
+  margin: 20px
+}
+
+.RubyImg {
+  width: 65%;
+  height: 65%;
+  margin: 13px;
+}
+
+.SkillsFooter {
+  position: relative; bottom: 32px;
+}
+
+.SkillsPage {
+  position: relative; bottom: 5px;
+}
+
+.Socials {
+  position: relative; right: 153px; bottom: 20px;
+}
+
+.Tech {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.Tools {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.ToolsList {
+  font-size: 27px;
+  position: relative; bottom: 10px;
+
+}
+
+.ToolsSection {
+  position: relative; bottom: 80px;
+}
+
+.welcomeOpps:hover,
+.welcomeOpps:active {
+  color: white;
   background-color: darkblue;
 }
 
-.navOpps {
+.welcomeOpps {
   color: darkblue;
   margin: 70px;
   position: relative;
   font-size: 35px;
   position: relative; top: 5px;
-}
-
-.Socials {
-  position: relative; right: 153px; bottom: 20px;
 }
 
 @keyframes App-logo-spin {
@@ -141,27 +283,3 @@
     transform: rotate(360deg);
   }
 }
-/* nav {
-  background-color: gold;
-}
-
-nav a {
-  display: inline-block;
-  margin: 1rem 2rem;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: black;
-  border-bottom: 2px solid black;
-  transition: 0.1s;
-}
-
-nav a:hover,
-nav a:active {
-  color: white;
-  border-bottom: 2px solid white;
-}
-
-nav a.active {
-  background-color: black;
-  color: white;
-} */

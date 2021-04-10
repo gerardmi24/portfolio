@@ -1,10 +1,10 @@
 import './App.css';
-import {Switch, Route} from 'react-router-dom'
-import Welcome from './Welcome'
-import Projects from './Projects'
-import Skills from './Skills'
-import Nav from './Nav'
-import Footer from './Footer'
+import {Switch, Route} from 'react-router-dom';
+import Welcome from './Welcome';
+import Projects from './Projects';
+import Skills from './Skills';
+import Nav from './Nav';
+import Footer from './Footer';
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Welcome />
-          <Footer />
+          {/* <Footer /> */}
         </Route>
         <Route exact path="/projects">
           <Nav />
