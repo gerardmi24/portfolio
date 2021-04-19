@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/projects">
           <Nav />
           <Projects />
+          <Footer />
         </Route>
         <Route exact path="/skills">
           <Nav />

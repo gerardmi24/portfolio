@@ -1,13 +1,14 @@
 import React from 'react'
-import Footer from './Footer';
+import { projObj } from './ProjObj.js'
+import ProjectCard from './ProjectCard'
 
-export default function Projects() {
+function Projects() {
+
     return (
-        <div>
-            <p>Projectssss</p>
-            <div className="ProjectsFooter" >
-            <Footer />
+            <div className="Shift">
+                {projObj ? projObj.map((proj) => <ProjectCard className="ProjectCard" key={proj.name} project={proj} /> ) : null}
             </div>
-        </div>
     )
 }
+
+export default Projects
