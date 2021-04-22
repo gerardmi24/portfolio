@@ -29,11 +29,11 @@ export default function Welcome() {
             </header>
             <div>
                 <p className="Bio">
-                    Hello and welcome to my Portfolio! I am a Fullstack Software Engineer exploring the ever changing 
+                    Hello and welcome! I am a Fullstack Software Engineer exploring the ever changing 
                     landscape of technology. After earning my MBA and working in Marketing for a few years, 
                     I decided to take on a new challenge and enter the fascinating world of Web Development. 
                     After receiving my certification from Flatiron School's Software Engineering Bootcamp, 
-                    I  continued exploring different platforms, tools and technologies to continue learning 
+                    I continued exploring different platforms, tools and technologies to continue learning 
                     in this rapidly evolving industry.
                 </p>
                 <div className="Socials">

@@ -5,9 +5,11 @@ import Footer from './Footer';
 
 function Projects() {
 
+    const projectIteration = projObj.map((proj) => <ProjectCard className="ProjectCard" key={proj.name} project={proj} /> )
+
     return (
             <div className="Shift">
-                {projObj ? projObj.map((proj) => <ProjectCard className="ProjectCard" key={proj.name} project={proj} /> ) : null}
+                {projectIteration}
                 <div className="ProjectFooter">
                     <Footer />
                 </div>

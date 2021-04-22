@@ -5,26 +5,26 @@ import picImg from '../src/images/Pictopia.png'
 export const projObj = [
     {
         name: "Sports R Us",
+        description: "An app used to monitor your favorite professional sports teams and players.",
+        languages: "React.js | Ruby on Rails | PostgreSQL",
         frontend: "https://github.com/gerardmi24/sports_r_us_frontend/tree/master/sports_r_us_frontend",
-        image: sportsImg,
         demo: "https://www.youtube.com/watch?v=LPytzeP9kpg",
-        description: "A app used to monitor your favorite professional sports teams and players.",
-        languages: "React.js | Ruby on Rails | PostgreSQL"
+        image: sportsImg,
     },
     {
         name: "Pictopia",
-        frontend: "https://github.com/jcastro506/Phase-4-Project",
-        image: picImg,
-        demo: "https://www.youtube.com/watch?v=2twhLyaGJow",
         description: "A great way to share vacation photos and experiences!",
-        languages: "React.js | Ruby on Rails | PostgreSQL"
+        languages: "React.js | Ruby on Rails | PostgreSQL",
+        frontend: "https://github.com/jcastro506/Phase-4-Project",
+        demo: "https://www.youtube.com/watch?v=2twhLyaGJow",
+        image: picImg,
     },
     // {
     //     name: "Bored No More",
-    //     frontend: "https://github.com/stacksonstack/boredNoMore-frontend",
-    //     image: boredImg,
-    //     demo: "",
     //     description: "An exciting way to come up with fun new activities.",
-    //     languages: "JavaScript | Ruby on Rails | The Bored API"
+    //     languages: "JavaScript | Ruby on Rails | The Bored API".
+    //     frontend: "https://github.com/stacksonstack/boredNoMore-frontend",
+    //     demo: "",
+    //     image: boredImg,
     // },
 ]
