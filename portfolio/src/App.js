@@ -4,7 +4,7 @@ import Welcome from './Welcome';
 import Projects from './Projects';
 import Skills from './Skills';
 import Nav from './Nav';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 function App() {
 
@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/projects">
           <Nav />
           <Projects />
-          <Footer />
         </Route>
         <Route exact path="/skills">
           <Nav />

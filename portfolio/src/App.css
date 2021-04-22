@@ -138,7 +138,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-  height: 35%;
+  height: 27%;
   transform: rotate(0.5turn);
 	transform-origin: bottom;
 	transition: 1.3s;
@@ -175,6 +175,10 @@
   margin-left: 17px;
   margin-top: 14px;
 	text-align: center;
+
+  transform: perspective(800px) rotateY(90deg);
+	transition: .5s;
+	transform-origin: left;
 }
 
 .img-wrapper:hover ul li
@@ -184,28 +188,26 @@
 
 .img-wrapper:hover ul li:nth-child(1)
 {
-	transition-delay: .2s;
+	transition-delay: .3s;
 }
 
 .img-wrapper:hover ul li:nth-child(2)
 {
-	transition-delay: .6s;
+	transition-delay: .9s;
 }
 
-.img-wrapper:hover ul li:nth-child(3)
-{
-	transition-delay: .8s;
-}
 
 .img-wrapper ul li a
 {
 	color: darkblue;
+	background: rgba(53, 34, 34, 0);
 }
 
 .img-wrapper ul li i
 {
-	color: darkblue;
+  color: darkblue;
   font-size: 25px;
+	background: rgba(255,255,255,0);
 }
 
 .img-wrapper ul li i:hover
@@ -239,12 +241,6 @@
   font-size: 30px;
   position: relative; top: 5px;
 }
-
-/* .linkOpps:hover,
-.linkOpps:active {
-  color: white;
-  background-color: darkblue;
-} */
 
 .linkOpps.active {
   color: white;
@@ -285,7 +281,7 @@
   width: 15%;
   height: 15%;
   margin-left: 35px;
-  position: relative; top: 52px;
+  position: relative; top: 50px;
 }
 
 .navLinks {
@@ -324,6 +320,10 @@
   font-size: 20px;
 }
 
+.ProjectFooter {
+  position: relative; top: 37px;
+}
+
 .RailsImg {
   width: 65%;
   height: 65%;
@@ -347,6 +347,7 @@
 }
 
 .Shift{
+  position: relative;
   margin: auto;
   width: 36%;
 }
